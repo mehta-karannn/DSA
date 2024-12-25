@@ -9,6 +9,11 @@ int main(){
     cout<<"enter the elements";
     for(int i = 0; i<n;i++){
         cin>>v[i];
+        if(v[i]>n){
+            cout<<"You exceeded the limit of the number"<<endl;
+            return 1;
+        }
+        
     }
     unordered_map<int,int>freq_map;
     for(int num:v){
