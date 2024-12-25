@@ -8,7 +8,7 @@ int main(){
 
     cout<<"Reversed number:";
 
-    for (int num:v){
+    for (int num:v){ //-->num:v stands for holding the vector v in temporary variable num to iterate the output
         cout<<num<<" ";
     }
     return 0;
